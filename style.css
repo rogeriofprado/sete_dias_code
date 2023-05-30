@@ -1,0 +1,23 @@
+@import url("styles/nav.css");
+@import url("styles/header.css");
+@import url("styles/metricas.css");
+@import url("styles/vagas.css");
+
+:root {
+    --cor-de-fundo: #D3D3D3;
+    --cor-principal: #FFFFFF;
+    --cor-botão: #8E2424;
+    --cor-texto: #667085;
+    --cor-texto-principal: #101828;
+    --cor-marca: #3A404E;
+    --cor-border: #EAECF0;
+    --cor-box: #EAECF0;
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;    
+}

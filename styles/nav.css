@@ -1,0 +1,60 @@
+.cabeçalho {
+    background-color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+     
+}
+
+.cabeçalho__item {
+    display: flex;
+    padding: 1em 0;    
+}
+
+.cabeçalho__item a {
+    text-decoration: none;
+    padding: 1em;
+}
+
+.marca {
+    align-items: center;   
+    font-size: 18px;
+    color: var(--cor-marca);       
+}
+
+.nome {
+    margin-left: .5em;
+    color: var(--cor-marca);
+}
+
+.imagem {
+    color: var(--cor-botão);
+}
+
+.menu {
+    justify-content: space-evenly;
+    padding: 1em;  
+}
+
+.link_menu {
+    color: var(--cor-texto);
+}
+
+
+.botão {   
+    justify-content: space-between;
+}
+
+.entrar {
+    color: var(--cor-texto);
+}
+
+.cadastrar {
+    background-color: var(--cor-botão);
+    color: var(--cor-principal);
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: .5rem 2rem;
+    margin-left: 1em;
+}

@@ -1,0 +1,77 @@
+.vagas__container{
+    background-color: var(--cor-principal);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 5em;    
+
+}
+
+.vagas__primeira-parte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding: 5em;    
+}
+
+.vagas__paragrafo {
+    background-color: #faf9fa;
+    color: var(--cor-botão);
+    font-size: 14px;    
+    border-radius: 16px;
+    padding: 1em 2em;
+}
+
+.vagas__paragrafo-principal {
+    color:var(--cor-texto-principal);
+    font-size: 36px;
+    font-weight: 600;
+}    
+
+.vagas__paragrafo-secundário {
+    color: var(--cor-texto);
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.vaga {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    
+}
+
+.vaga__box{
+    background-color: var(--cor-principal);
+    border-radius: 16px;
+    border: 1px solid var(--cor-border);
+    height: 7em;
+    width: 40em;
+   
+    
+}
+
+.vaga__texto {
+    color: var(--cor-texto-principal);
+    font-size: 20px;
+    line-height: 30px;
+    
+
+}
+
+.titulo-vaga {
+    color: var(--cor-texto-principal);
+    font-size: 18px;
+    line-height: 28px;
+    
+    
+}
+
+.informacoes span {
+    color: var(--cor-texto);  
+    line-height: 24px;  
+}

@@ -1,0 +1,23 @@
+.metricas__container {
+    background-color: var(--cor-principal);
+    display: flex;
+    padding: 7rem 10em;
+    justify-content: space-evenly;
+}
+
+.metricas__container h2 {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--cor-botão);
+}
+
+.metricas__container h3 {
+    font-size: 18px;
+    color: var(--cor-texto-principal);
+}
+
+.metricas__container p {
+    font-weight: 400;
+    color: var(--cor-texto);
+    max-width: 61%;
+}
